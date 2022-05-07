@@ -14,7 +14,39 @@ body{
     width: 100vw;
 }
 
-.navbar{
+nav{
+    display: flex;
+    justify-content: center;
+    
     
 }
 
+nav ul{
+    text-decoration: none;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+h2{
+    color: yellow;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-left: 4cm;
+    padding-top: 4%;
+    
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    margin-left: 4cm;
+    padding-top: 3cm;
+}
