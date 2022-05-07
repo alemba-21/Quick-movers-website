@@ -3,36 +3,60 @@
     padding: 0;
     margin: 0;
     Font type: Poppins,  Actor, Adamina
-
+    
+    
 }
 
 body{
-    background-image: url(/assets/image/moving\ 1.png);
+    height: 100vh;
+    width: 100%;
+}
+
+.home_page{
+    background-image: url(../image/moving\ 1.png);
     background-size: cover;
     background-position: center center;
     height: 100vh;
-    width: 100vw;
-}
-
-nav{
-    display: flex;
-    justify-content: center;
     
     
 }
 
-nav ul{
+.home_page nav{
     text-decoration: none;
-    justify-content: space-around;
-    font-size: 25px;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+
 }
 
-nav ul li a{
+.home_page nav ul{
+    text-align: center;
+    
+}
+
+.home_page nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+
+}
+
+
+.home_page nav ul li a{
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+ul li #btn_1{
+    background-color: yellow;
     
 }
 
+ul li #btn_2{
+    background-color: black;
+}
 
 
 h2{
@@ -50,3 +74,5 @@ p{
     margin-left: 4cm;
     padding-top: 3cm;
 }
+
+
