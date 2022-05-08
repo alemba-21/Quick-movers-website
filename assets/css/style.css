@@ -129,4 +129,17 @@ p{
     margin: 40px;
 }
 
+.movers{
+    padding: 20px;
+    
+}
 
+.movers h3{
+    font-size: 40px;
+}
+
+.movers .img{
+    border: 1px;
+    float: left;
+    width: 180px;
+}
