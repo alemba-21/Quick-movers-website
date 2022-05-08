@@ -1,145 +1,296 @@
 *{
-    box-sizing: border-box;                                                
+    margin: o;
     padding: 0;
-    margin: 0;
-    Font: Poppins,  Actor, Adamina
-    
-    
+    font-family: 'Poppins';
+    box-sizing: border-box;
 }
-
-body{
-    height: 100vh;
-    width: 100%;
-}
-
-.home_page{
-    background-image: url(../image/moving\ 1.png);
+.sect-1{
+    background-image: url("/assets/image/moving\ 1.png");
+    height: 800px;
+    width:auto;
     background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    
-    
-}
-
-.home_page nav{
-    text-decoration: none;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
-
+    background-position: center;
+    background-attachment:fixed;
 
 }
-
-.home_page nav ul{
-    text-align: center;
-    
+.sect-1 > .logo >ul{ 
+    margin-left: 500px;
+   
 }
-
-.home_page nav ul li{
+.sect-1 > .logo > ul > li{
     display: inline-block;
-    padding: 10px 25px;
-    list-style-type: none;
-    font-size: 20px;
-
-}
-
-
-.home_page nav ul li a{
+    font-size: 25px;
+    padding: 15px;
     color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-ul li #btn_1{
-    color: black;
-    background-color: yellow;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 3px;
-    margin: 5px;
-    
+    margin-top: 30px;
+  
     
 }
-
-ul li #btn_2{
-    background-color: black;
-    border-radius: 10px;
-    font-size: 20px;
-    padding: 3px;
-    margin: 5px;
-    color: black;
-}
-
-
-h2{
-    color: yellow;
-    font-size: 50px;
-    font-weight: lighter;
-    margin-left: 4cm;
-    padding-top: 4%;
-    text-align: 
-    
-}
-
-
-
-p{
+.sect-1 > .logo > ul > a > li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px;
     color: white;
-    font-size: 30px;
-    margin-left: 4cm;
-    padding-top: 3cm;
-}
-
-.About{
-    width: 100%;
-    padding: 100px 0px;
-    background-color: white;
-    text-align: center;
-    
+    margin-top: 30px;
 
 }
- 
-.About .main .img{
-    float: left;
-
-}
-
-.about .main .img img{
-    width: 500px;
-    height: 10px;
-    padding-top: 10px;
-}
-
-.About-text h2{
-    color: black;
-    
-}
-.About-text p{
-    color: black;
-
-}
-
-.btn_3{
-    background-color: black;
-    color: yellow;
-    border-radius: 10px;
-    font-size: 40px;
+.sect-1 > .logo > ul > a > li > .btn-signup{
+    background-color: #FAFF00;
+    font-size: 15px;
     padding: 10px;
-    margin: 40px;
+    color: black;
+    margin-top: 30px;
+    border-radius: 6px;
+
 }
 
-.movers{
-    padding: 20px;
+.sect-1 > .logo > ul > a > li > .btn-login{
+    background-color:black;
+    font-size: 15px;
+    padding: 16px 32px;
+    color:#FAFF00;
+    margin-top: 30px;
+    border-radius: 6px;
+
+}
+
+.sect-1 > .logo > ul > li > .button > .btn-signup{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.sect-1 > .sect1-content > h1{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 90px;
+    color: #FAFF00;
+    font-family: 'Poppins';
+  
+    
+
+}
+.sect-1 > .sect1-content > p{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: 400;
+
+}
+.sect-2 {
+    display: flex;
+    margin-top: 40px;
     
 }
 
-.movers h3{
-    font-size: 40px;
+.sect-2 > .Hustle {
+    margin: 40px;
+    
 }
 
-.movers .img{
-    border: 1px;
-    float: left;
-    width: 180px;
+.sect-2 > .Hustle h1{
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sect-2 > .Hustle p{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    margin-bottom: 50px;
+
+}
+.sect-2 > .Hustle button{
+    padding: 10px;
+    border-top-right-radius: 15px;
+    background-color: black;
+    color: #FAFF00;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    content: "\2192";
+}
+
+.sect-2 > .Hustle span{
+    content: "\2192";
+    justify-content: center;
+    color:#FAFF00;
+    
+}
+
+.line{
+   
+    width: 112px;
+    height: 4px;
+    /* border-bottom: 4px solid black; */
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
+    position:relative
+    }
+
+.card-items{
+    /* height:max-content; */
+    background-color: rgb(220,220,220);
+    justify-content: space-evenly;
+    height: 160vh;
+    margin: 0;
+} 
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    
+}
+
+.card-items > .movers > h1{
+      font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-weight: 200;
+    font-family: 'Poppins';
+    
+    }  
+
+.card-items > .movers > .line-2{
+    width: 112px;
+    height: 40px;
+    border-bottom: 4px solid black;
+    position:relative;
+    margin-left: 100px;
+   
+    }
+
+
+
+
+
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 80px 50px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 24px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: 0.3s;
+    width: 300px;
+    justify-content:space-evenly;
+  
+
+
+   
+    
+}
+.card-img{
+    grid-area: image; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.card-text h1{
+    grid-area: text;
+    font-size: 20px;
+    margin-top: 25px;
+
+}
+
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.card-stats .stat .value{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+
+}
+.card-stats .border{
+    height: auto;
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+    border-top: 1px solid rgba(0,0,0,0.9);
+    
+    
+}
+.card-stats .border-1{
+border-top: 1px solid rgba(0,0,0,0.9);
+width:auto;
+
+    
+    
+}
+
+.footer{
+    height: 500px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
+    
+    
+}
+.footer > .footer-head{
+    margin: 0;
+    padding: 0;
+   
+}
+.footer > .footer-head h1{
+    font-size: 30px;
+    color: white;
+    margin: 100px;
+    padding-top: 100px;
+    font-weight: 300;
+}
+.footer > .footer-head span{
+    color: #FAFF00;
+    
+}
+.footer > .social > .icon-links {
+    margin-left: 100px;
+    color: white;
+    
+   
+}
+.footer > .social > .icon-links a{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+   text-decoration: none;
+   font-size: 30px;
+}
+.footer  .social{
+    display: flex;
+
+}
+.footer > .social> .heading {
+    margin-left: 250px;
+    
+
+}
+.footer > .social> .heading h1{
+    font-size: 18px;
+    color: white;
+    
+
+}
+.footer > .social> .heading li{
+    font-size: 18px;
+    color: white;
+
 }
