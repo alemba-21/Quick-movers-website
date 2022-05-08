@@ -2,7 +2,7 @@
     box-sizing: border-box;                                                
     padding: 0;
     margin: 0;
-    Font type: Poppins,  Actor, Adamina
+    Font: Poppins,  Actor, Adamina
     
     
 }
@@ -39,6 +39,7 @@ body{
     display: inline-block;
     padding: 10px 25px;
     list-style-type: none;
+    font-size: 20px;
 
 }
 
@@ -49,13 +50,25 @@ body{
     font-weight: bold;
 }
 
+
 ul li #btn_1{
+    color: black;
     background-color: yellow;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px;
+    margin: 5px;
+    
     
 }
 
 ul li #btn_2{
     background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 3px;
+    margin: 5px;
+    color: black;
 }
 
 
@@ -65,14 +78,55 @@ h2{
     font-weight: lighter;
     margin-left: 4cm;
     padding-top: 4%;
+    text-align: 
     
 }
+
+
 
 p{
     color: white;
     font-size: 30px;
     margin-left: 4cm;
     padding-top: 3cm;
+}
+
+.About{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+    text-align: center;
+    
+
+}
+ 
+.About .main .img{
+    float: left;
+
+}
+
+.about .main .img img{
+    width: 500px;
+    height: 10px;
+    padding-top: 10px;
+}
+
+.About-text h2{
+    color: black;
+    
+}
+.About-text p{
+    color: black;
+
+}
+
+.btn_3{
+    background-color: black;
+    color: yellow;
+    border-radius: 10px;
+    font-size: 40px;
+    padding: 10px;
+    margin: 40px;
 }
 
 
