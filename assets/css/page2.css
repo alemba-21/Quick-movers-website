@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home_page .img img{
+    width: 800px;
+    padding-left: 100px;
+}
+
+.row_pic{
+     margin-left: 100px;
+     padding-top: 10px;     
+}
+
+.row_pic img{
+    width: 98px;
+}
+
+.teboo .details p{
+    margin-left: 100px;
+}
+
+.icons{
+    margin-left: 100px;
+}
