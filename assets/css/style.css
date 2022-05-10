@@ -1,296 +1,452 @@
-*{
-    margin: o;
-    padding: 0;
-    font-family: 'Poppins';
-    box-sizing: border-box;
-}
-.sect-1{
-    background-image: url("/assets/image/moving\ 1.png");
-    height: 800px;
-    width:auto;
-    background-size: cover;
-    background-position: center;
-    background-attachment:fixed;
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins&display=swap');
 
-}
-.sect-1 > .logo >ul{ 
-    margin-left: 500px;
-   
-}
-.sect-1 > .logo > ul > li{
-    display: inline-block;
-    font-size: 25px;
-    padding: 15px;
-    color: white;
-    margin-top: 30px;
-  
-    
-}
-.sect-1 > .logo > ul > a > li{
-    display: inline-block;
-    font-size: 25px;
-    padding: 15px;
-    color: white;
-    margin-top: 30px;
-
-}
-.sect-1 > .logo > ul > a > li > .btn-signup{
-    background-color: #FAFF00;
-    font-size: 15px;
-    padding: 10px;
-    color: black;
-    margin-top: 30px;
-    border-radius: 6px;
-
-}
-
-.sect-1 > .logo > ul > a > li > .btn-login{
-    background-color:black;
-    font-size: 15px;
-    padding: 16px 32px;
-    color:#FAFF00;
-    margin-top: 30px;
-    border-radius: 6px;
-
-}
-
-.sect-1 > .logo > ul > li > .button > .btn-signup{
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-    
-}
-.sect-1 > .sect1-content > h1{
-    font-size: 50px;
-    margin-left: 100px;
-    margin-top: 90px;
-    color: #FAFF00;
-    font-family: 'Poppins';
-  
-    
-
-}
-.sect-1 > .sect1-content > p{
-    font-size: 30px;
-    margin-left: 100px;
-    margin-top: 50px;
-    color:white;
-    font-family: 'Poppins';
-    font-weight: 400;
-
-}
-.sect-2 {
-    display: flex;
-    margin-top: 40px;
-    
-}
-
-.sect-2 > .Hustle {
-    margin: 40px;
-    
-}
-
-.sect-2 > .Hustle h1{
-    font-size: 50px;
-    font-family: 'Poppins';
-    font-weight: 100;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.sect-2 > .Hustle p{
-    font-size: 20px;
-    font-family: 'Poppins';
-    font-weight: 100;
-    margin-bottom: 50px;
-
-}
-.sect-2 > .Hustle button{
-    padding: 10px;
-    border-top-right-radius: 15px;
-    background-color: black;
-    color: #FAFF00;
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-weight: 100;
-    content: "\2192";
-}
-
-.sect-2 > .Hustle span{
-    content: "\2192";
-    justify-content: center;
-    color:#FAFF00;
-    
-}
-
-.line{
-   
-    width: 112px;
-    height: 4px;
-    /* border-bottom: 4px solid black; */
-    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
-    position:relative
-    }
-
-.card-items{
-    /* height:max-content; */
-    background-color: rgb(220,220,220);
-    justify-content: space-evenly;
-    height: 160vh;
+* {
     margin: 0;
-} 
-
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 200px;
-    
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Actor', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
-.card-items > .movers > h1{
-      font-size: 40px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    font-weight: 200;
-    font-family: 'Poppins';
-    
-    }  
-
-.card-items > .movers > .line-2{
-    width: 112px;
-    height: 40px;
-    border-bottom: 4px solid black;
-    position:relative;
-    margin-left: 100px;
-   
-    }
-
-
-
-
-
-.card{
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 300px 80px 50px;
-    grid-template-areas: "image" "text" "stats";
-    border-radius: 24px;
-    background-color: white;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-    text-align: center;
-    transition: 0.3s;
-    width: 300px;
-    justify-content:space-evenly;
-  
-
-
-   
-    
+body {
+    margin: 0 1.5em;
 }
-.card-img{
-    grid-area: image; 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+
+.navHero {
+    width: 100%;
+    max-height: 100vh;
+    min-height: calc(100vh - 3.25rem);
+    background-image: url("../image/moving\ 1.png");
     background-size: cover;
-    background-position: center;
-    
+    overflow: hidden;
 }
-.card-text h1{
-    grid-area: text;
-    font-size: 20px;
-    margin-top: 25px;
+
+.navbar {
+    min-width: 3.25rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 
 }
 
-.card-stats{
-    grid-area: stats;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+.navbar .navbar-items {
+    margin: 4em 10em 0 0;
+}
+
+.navbar .navbar-items li {
+    display: inline-block;
+    padding: 1em;
+}
+
+.navbar .navbar-items li a {
+    font-family: 'Adamina', serif;
+    color: #d4d4d4;
+    text-decoration: none;
+    padding-bottom: .5em;
+    transition: all .3s ease-in-out;
+}
+
+.navbar .navbar-items li a:hover {
+    color: #FAFF00;
+}
+
+.navbar .navbar-items li a.buttons:hover {
+    border: none;
+}
+
+.buttons button {
+    background-color: #FFAC12;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: #FAFF00 0px 0px 0px 0px inset;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.buttons button.dark {
+    background-color: #000;
+    color: #FAFF00;
+}
+
+.section {
+    padding: 3em 2em;
+    width: 100%;
+    min-height: calc(100vh - 3.25rem);
+
+}
+
+.section .columns {
+    width: 100%;
+    margin: 0 1em;
+    padding: 0 2em;
+    display: flex;
+}
+.columns.is-multiline {
+    flex-wrap: wrap;
+  }
+.section.hero-body .columns{
+    display: flex;
+    align-items: center;
+}
+
+.section .columns .column.is-6 {
+    width: 50%;
+}
+.section .columns .column.is-4 {
+    width: 25.4%;
+}
+
+.section.hero .columns h1.title {
+    color: #FAFF00;
+    font-size: 3em;
+    font-family: 'Adamina', serif;
+    font-weight: 200;
+    margin-bottom: 1em;
+    line-height: 1.3em;
+    overflow: hidden;
+}
+
+.section.hero .columns p.content {
+    font-size: 1.5em;
+    color: #d4d4d4;
+}
+
+.image.is-large {
+    height: 30em;
+    width: 30em;
+    position: relative;
+}
+
+.image.is-large img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ml-0 {
+    margin-left: 0 !important;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.pt-0{
+    padding-top: 0 !important;
+}
+
+.column .container {
+    width: 50%;
+    margin: 6em 0;
+}
+
+.column .container .title {
+    padding: 1em 0;
+    font-size: 2em;
+    font-family: 'Adamina', serif;
+    position: relative;
+}
+
+.column .container .title::before {
+    content: "";
+    display: block;
+    width: 4em;
+    height: 5px;
+    border-radius: 1em;
+    background: linear-gradient(90deg,rgba(255,165,0 , 0.9) 0%, rgba(0,0,0,0.9));
+    left: 0;
+    top: .5em;
+    position: absolute;
+}
+
+.column .container .content {
+    color: #adadad;
+    font-weight: 600;
+}
+
+.buttons.is-large {
+    margin: 2em 0;
+}
+
+.buttons.is-large button {
+    border-radius: 0 10px 0 0;
+    padding: 1em 2em;
+}
+
+.buttons.is-large button i {
+    padding-left: 1em;
+}
+
+.hero-body.topMovers{
+    background: #adadad17;
+}
+
+.hero-body .hero-title {
+    padding: 4em 2em;
+    font-size: 2em;
+    font-family: 'Adamina', serif;
+    position: relative;
+}
+
+.hero-body .hero-title::before {
+    content: "";
+    margin: 1em 0;
+    display: block;
+    width: 4em;
+    height: 5px;
+    border-radius: 1em;
+    background: linear-gradient(90deg,rgba(255,165,0 , 0.9) 0%, rgba(0,0,0,0.9));
+    left: 0;
+    top: .5em;
+}
+
+.card {
+    position: relative;
+    margin: 1.5em;
+    background: #adadad;
+    border-radius: 5px;
+}
+
+.card .companyDetails{
+    background: #fff;
+    border-radius: 0 0 20px 20px;
     
 }
-.card-stats .stat .value{
-    display:inline;
+
+.card .image{
+    height: 17em;
+    /* box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35); */
+    overflow: hidden;
+    position: relative;
+}
+
+.card .image img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.card .title{
+    padding: 1em;
+    font-family: 'Adamina', serif;
+}
+
+
+.card .details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #adadad;
+
+
+}
+
+.card .details p{
+    white-space: nowrap;
+}
+
+.card .details p i{
+    padding: 0 1em;
+}
+
+.card .details p.bordered{
+    border-left: 1px solid #adadad;
+    border-right: 1px solid #adadad;
+    padding: .4em .8em;
+}
+
+.card .details .div{
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
-    
-
-}
-.card-stats .border{
-    height: auto;
-    border-left: 1px solid rgba(0,0,0,0.9);
-    border-right: 1px solid rgba(0,0,0,0.9);
-    border-top: 1px solid rgba(0,0,0,0.9);
-    
-    
-}
-.card-stats .border-1{
-border-top: 1px solid rgba(0,0,0,0.9);
-width:auto;
-
-    
-    
 }
 
 .footer{
-    height: 500px;
-    background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(255,165,0 , 0.9));
-    
-    
+    margin: 0 0 2em;
+    overflow: hidden;
+    background: #141006;
+    border: 1px solid #000;
+
 }
-.footer > .footer-head{
-    margin: 0;
-    padding: 0;
+
+.footer .columns{
+    width: 100%;
+
    
 }
-.footer > .footer-head h1{
-    font-size: 30px;
-    color: white;
-    margin: 100px;
-    padding-top: 100px;
-    font-weight: 300;
-}
-.footer > .footer-head span{
-    color: #FAFF00;
-    
-}
-.footer > .social > .icon-links {
-    margin-left: 100px;
-    color: white;
-    
-   
-}
-.footer > .social > .icon-links a{
-    display: inline-block;
-    padding: 15px;
-    color: white;
-   text-decoration: none;
-   font-size: 30px;
-}
-.footer  .social{
+.footer .columns .column{
+    padding: 3em;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer .footerTitle{
+    padding: 1em 7%;
+    width: 100%;
+}
+.footer .footerTitle p{
+    font-size: 2em;
+    color: #fff;
+}
+
+.footer .footerTitle p span{
+    color: #FAFF00;
+    font-size: 1em;
 
 }
-.footer > .social> .heading {
-    margin-left: 250px;
-    
+
+.footer .footerContent{
+    color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #adadadde;
+    align-items: center;
+    padding: 3em;
+    padding-right: 0;
 
 }
-.footer > .social> .heading h1{
-    font-size: 18px;
-    color: white;
-    
 
+.footer .footerContent .socialIcons{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
 }
-.footer > .social> .heading li{
-    font-size: 18px;
-    color: white;
 
+.footer .footerContent .socialIcons i{
+    font-size: 1.5em;
+    transition: all .3s ease;
+}
+.footer .footerContent .socialIcons i:hover{
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.footer .footerContent .footColumns{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .footerContent .footColumns .col-1 li a{
+    color: #adadadde;
+    font-size: .9em;
+    transition: all .3s ease;
+}
+.footer .footerContent .footColumns .col-1 li a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 769px) {
+    *{
+        font-size: 13px;
+    }
+    .column .container {
+        margin: 6em 3em;
+    }
+    .section .columns .column.is-4 {
+        width: 29.4%;
+    }
+    .section {
+        padding: 2em 1em;
+        width: 100%;
+}
+.card .image {
+    height: 15em;
+}
+}
+@media only screen and (max-width: 425px) {
+    * {
+        font-size: 11px;
+    }
+
+    .section {
+        margin: 0;
+        padding: 0;
+    }
+
+.section .columns {
+    width: 100%;
+    margin: 0 1em;
+    padding: 0 1em;
+}
+.section .columns .column.is-6 {
+    width: 70%;
+}
+.section .columns .column.is-4 {
+    width: 48%;
+}
+    .navbar .navbar-items {
+        margin: 4em 0 0 10em;
+    }
+
+    .navbar .companyNav {
+        padding: 2em 2em 1em;
+        color: #fff;
+
+    }
+    .footer .footerContent .socialIcons {
+        display: block;
+    }
+    .footer .footerContent .socialIcons i {
+        margin: 1em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    * {
+        font-size: 8px;
+    }
+
+    .section {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar .companyNav {
+        padding: 2em 2em 1em;
+        color: #fff;
+    }
+    .boxed{
+        width: 100%;
+    }
+    .product .image.is-large{
+        width: 100%;
+    }
+    .product .variant_images{
+        width:100%;
+    }
+    .card .details p i {
+        padding: 0 2px;
+
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    * {
+        font-size: 9px;
+    }
+
+    .section {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar .companyNav {
+        padding: 2em 2em 1em;
+        color: #fff;
+
+    }
+    .card .details p i {
+        padding: 0 2px;
+
+    }
 }
